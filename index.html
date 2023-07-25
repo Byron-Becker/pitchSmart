@@ -110,7 +110,10 @@ too many font sizes and colors
 not utilizing shorthand properties
 leaving in unuititlized css
 
-
+it is a good idea to put css in the head of the html document, because as the html is being parsed you want the css
+to be loaded at the same time so there are no flashes of unstyled content for the user to see.
+Putting JS scripts at the end of the body helps to avoid blocking the critical rendering path for the web page to load
+overall both help to improve the overall user exprience.
 
 
 
