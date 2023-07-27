@@ -10,7 +10,4 @@ letsDothis function(int, parts){
     for(let i=0; i < remainder; i++){
         arr.push[divisor+1]
     }
-
-
-
 }
